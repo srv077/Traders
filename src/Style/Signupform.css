@@ -1,0 +1,27 @@
+#signupform{
+    height: 100vh;
+    display: grid;
+    grid-template-rows:90% 10% ;
+}
+#signupform>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+#signupform>div>button{
+    background-color: greenyellow;
+}
+#signupform>div>button:hover{
+    background-color: red;
+}
+#signupcard{
+    background-color: black;
+    width:50%;
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

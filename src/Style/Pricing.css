@@ -1,0 +1,38 @@
+#pricing-full{
+    position: relative;
+    height: 105vh;
+    display: grid;
+    grid-template-rows: 15vh 45vh 40vh;
+}
+#full-head{
+    position: relative;
+}
+#footer-full{
+    height: 40vh;
+}
+#pricing{
+    margin:5px;
+    display: grid;
+    height: 45vh;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-evenly;
+}
+#pricing-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-bottom:5px solid aqua ;
+    border-radius: 0px 50px 50px 50px;
+}
+#pricing-1:hover{
+    padding:5px;
+    height: 100%;
+    width: 100%;
+}

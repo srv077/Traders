@@ -1,0 +1,60 @@
+#titile{
+    font-size:-webkit-xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: aqua;
+}
+#full-head{
+    width:100%;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    height: 15vh;
+    position: fixed;
+    top:0;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    z-index: 3;
+}
+#nav-options{
+    font-size:large;
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+}
+.nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-options:hover{
+    display: flex;
+    text-decoration: underline white 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#head-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#head-but>button,#head-but>*>button{
+    background-color: greenyellow;
+    color: white;
+    width:30%;
+    height:50%;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#head-but>button:hover{
+    width:30%;
+    height:55%;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+button>*:hover{
+    cursor: pointer;
+}
