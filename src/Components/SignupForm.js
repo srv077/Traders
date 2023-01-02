@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../Style/Signupform.css"
 
 export default function SignupForm() {
-    const check=()=>{
-
+    const [login,setLogin]=useState(false);
+    const check=(e)=>{
+       e.preventDefault();
+       if(e.target[3].value!=e.target[4].value){
+        alert("Confirmation password should be same as password");
+       }else{
+         let logininfo=[e.target[0].value,e.target[1].value,e.target[2].value,e.target[3].value];
+         localStorage.setItem("Traderslogin",JSON.stringify(logininfo))
+         setLogin(true);
+       }
     }
   return (
     <div id="signupformfull">
@@ -18,26 +26,29 @@ export default function SignupForm() {
     
     <form onSubmit={check}>
       <label htmlFor="fname">First Name :</label>
-      <input type="text"></input>
+      <input type="text" required></input>
       <br></br>
       <br></br>
       <label htmlFor="sname">Last Name :</label>
-      <input type="text"></input>
+      <input type="text" required></input>
       <br></br>
       <br></br>
       <label htmlFor="email">Email :</label>
-      <input type="email"></input>
+      <input type="email" required></input>
       <br></br>
       <br></br>
       <label htmlFor="password">Password :</label>
-      <input type="password"></input>
+      <input type="password" required></input>
       <br></br>
       <br></br>
       <label htmlFor="cpassword">Confirm Password :</label>
-      <input type="password"></input>
+      <input type="password" required></input>
       <br></br>
       <br></br>
-      <button type="submit">Submit</button>
+      By clicking Sign Up, you agree to our Terms & Conditions 
+      <br></br>
+      <br></br>
+      <button type="submit">Sign Up</button>
     </form>
 
          </div>

@@ -1,15 +1,26 @@
 
+import Account from './Components/Account';
 import Footer from './Components/Footer';
 import Frond from './Components/Frond';
 import Header from './Components/Header';
-import Products from './Components/Products';
+import Pricingmain from './Components/Pricingmain';
+import Productmain from './Components/Productmain';
 
 function Home() {
   return (
     <div className="App">
       <Header/>
       <Frond/>   
-      <Products/>
+      <Productmain/>
+      <br></br>
+      <Account/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Pricingmain/>
+      <br></br>
+      <br></br>
       <Footer/>
     </div>
   );
