@@ -7,6 +7,7 @@ export default function Pricing() {
   return (
     <div id="pricing-full">
        <Header/>
+       <div></div>
        <div id="pricing">
            <div id="pricing-1">
                <h1>Basic</h1>
@@ -39,6 +40,7 @@ export default function Pricing() {
                </ul>
            </div>
        </div>
+       <br></br>
        <Footer/>
     </div>
   )

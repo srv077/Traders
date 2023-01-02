@@ -1,5 +1,19 @@
-#signupform{
+#signupformfull{
     height: 100vh;
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+#formimg{
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 50px 50px 50px;
+}
+#formimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signupform{
     display: grid;
     grid-template-rows:90% 10% ;
 }
@@ -7,18 +21,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 #signupform>div>button{
     background-color: greenyellow;
+    color: black;
 }
 #signupform>div>button:hover{
     background-color: red;
+    color:white;
 }
 #signupcard{
     background-color: black;
-    width:50%;
-    height: 60%;
+    width:80%;
+    height: 80%;
     color: white;
     display: flex;
     flex-direction: column;

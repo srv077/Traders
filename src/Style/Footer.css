@@ -13,6 +13,9 @@
     justify-content: center;
     align-items: center;
 }
+.footer1>*{
+    cursor: pointer;
+}
 #footer2{
     display: grid;
     grid-template-columns:30% 30% 40%  ;
@@ -21,9 +24,12 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   cursor: pointer;
+
 }
 #icon{
     width:7%;
+    cursor: pointer;
 }
 #icon-container{
     display: flex;

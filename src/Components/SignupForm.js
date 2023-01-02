@@ -7,12 +7,14 @@ export default function SignupForm() {
 
     }
   return (
-    
+    <div id="signupformfull">
+      <div id="formimgdiv">
+        <img id="formimg" src="https://a.c-dn.net/c/content/dam/publicsites/igcom/uk/images/Rebrand/Hero/trading-platforms-hero-update-170521.jpg"></img>
+      </div>
     <div id="signupform">
-        <div>
+      <div>
         <div id="signupcard">
-
-        <h1 style={{textAlign:'center',color:'aqua',fontSize:'xx-large',fontWeight:'900'}}>Traders</h1>
+          <h1 style={{textAlign:'center',color:'aqua',fontSize:'xx-large',fontWeight:'900'}}>Traders</h1>
     
     <form onSubmit={check}>
       <label htmlFor="fname">First Name :</label>
@@ -38,10 +40,11 @@ export default function SignupForm() {
       <button type="submit">Submit</button>
     </form>
 
-    </div>
-    </div>
-    <div>
+         </div>
+      </div>
+      <div>
         <button ><Link style={{textDecoration:'none'}} to="/">Back</Link></button>
+      </div>
     </div>
     </div>
   )

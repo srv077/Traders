@@ -1,14 +1,7 @@
 #pricing-full{
     position: relative;
-    height: 105vh;
     display: grid;
-    grid-template-rows: 15vh 45vh 40vh;
-}
-#full-head{
-    position: relative;
-}
-#footer-full{
-    height: 40vh;
+    grid-template-rows:15vh 15vh 45vh 40vh;
 }
 #pricing{
     margin:5px;

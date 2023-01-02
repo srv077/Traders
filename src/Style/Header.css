@@ -13,7 +13,7 @@
     color: white;
     height: 15vh;
     position: fixed;
-    top:0;
+    top:1;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     z-index: 3;
@@ -40,20 +40,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
-#head-but>button,#head-but>*>button{
+#head-but>a{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head-but>a>button{
     background-color: greenyellow;
-    color: white;
-    width:30%;
-    height:50%;
-    margin-left: 10px;
-    border-radius: 50px;
-}
-#head-but>button:hover{
-    width:30%;
+    color: black;
+    width:75%;
     height:55%;
     margin-left: 10px;
-    border-radius: 50px;
+    border-radius: 0px 20px 0px 50px;
+    cursor: pointer;
+}
+#head-but>a>button:hover{
+    background-color: rgb(208, 240, 160);
+    color: red;
+    width:80%;
+    height:60%;
 }
 button>*:hover{
     cursor: pointer;
