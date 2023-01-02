@@ -1,4 +1,6 @@
 import React from 'react'
+import "../Style/Pricing.css"
+
 
 export default function Pricingmain() {
   return (
