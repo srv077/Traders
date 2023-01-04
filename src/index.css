@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-family:Encode Sans Expanded,sans-serif;
+  scroll-behavior: smooth;
 }
 a,a:link{
   color:white;

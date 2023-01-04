@@ -7,12 +7,12 @@ export default function Header() {
     <div id="full-head">
       <div id="titile">Traders</div>
       <div id="nav-options">
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Home</div></Link></div>
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="products"><div className="nav-options">Products</div></Link></div>
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="pricing"><div className="nav-options">Pricing</div></Link></div>
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Media</div></Link></div>
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Community</div></Link></div>
-      <div className="nav-options"><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Support</div></Link></div>
+      <div className="nav-options"><div><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Home</div></Link></div></div>
+      <div className="nav-options"><div><Link style={{textDecoration:'none'}} to="/products"><div className="nav-options">Products</div></Link></div></div>
+      <div className="nav-options"><div><Link style={{textDecoration:'none'}} to="/pricing"><div className="nav-options">Pricing</div></Link></div></div>
+      <div className="nav-options"><div><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Media</div></Link></div></div>
+      <div className="nav-options"><div><Link style={{textDecoration:'none'}} to="/"><div className="nav-options">Community</div></Link></div></div>
+      <div className="nav-options"><div><a href='#footer-full'><div className="nav-options">Support</div></a></div></div>
 
       </div>
       <div id="head-but">

@@ -13,9 +13,9 @@ function App() {
       <Routes>
       <Route exact path="/">
           <Route index element={<Home />} />
-          <Route exact path="products" element={<Products />}/>
-          <Route exact path="pricing" element={<Pricing/>}/>
-          <Route exact path="signupform" element={<SignupForm/>}/>
+          <Route exact path="/products" element={<Products />}/>
+          <Route exact path="/pricing" element={<Pricing/>}/>
+          <Route exact path="/signupform" element={<SignupForm/>}/>
           <Route exact path="*" element={<Home/>} />
       </Route>
       </Routes>

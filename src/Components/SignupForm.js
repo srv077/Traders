@@ -25,30 +25,42 @@ export default function SignupForm() {
           <h1 style={{textAlign:'center',color:'aqua',fontSize:'xx-large',fontWeight:'900'}}>Traders</h1>
     
     <form onSubmit={check}>
+      <div>
       <label htmlFor="fname">First Name :</label>
       <input type="text" required></input>
+      </div>
       <br></br>
       <br></br>
+      <div>
       <label htmlFor="sname">Last Name :</label>
       <input type="text" required></input>
+      </div>
       <br></br>
       <br></br>
+      <div>
       <label htmlFor="email">Email :</label>
       <input type="email" required></input>
+      </div>
       <br></br>
       <br></br>
+      <div>
       <label htmlFor="password">Password :</label>
       <input type="password" required></input>
+      </div>
       <br></br>
       <br></br>
+      <div>
       <label htmlFor="cpassword">Confirm Password :</label>
       <input type="password" required></input>
+      </div>
       <br></br>
       <br></br>
       By clicking Sign Up, you agree to our Terms & Conditions 
       <br></br>
       <br></br>
+      <div id="signupformjoinbuttondiv">
       <button type="submit">Sign Up</button>
+      </div>
     </form>
 
          </div>
