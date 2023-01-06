@@ -1,7 +1,6 @@
 body{
   margin: 0;
   font-family:Encode Sans Expanded,sans-serif;
-  scroll-behavior: smooth;
 }
 a,a:link{
   color:white;
@@ -9,4 +8,7 @@ a,a:link{
 }
 button{
   color: black;
+}
+*{
+  scroll-behavior: smooth;
 }

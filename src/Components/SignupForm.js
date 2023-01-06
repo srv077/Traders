@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../Style/Signupform.css"
+
+const UserContext = createContext();
 
 export default function SignupForm() {
     const [login,setLogin]=useState(false);
@@ -14,6 +16,9 @@ export default function SignupForm() {
          setLogin(true);
        }
     }
+    useEffect (() => {
+      window.scrollTo(0, 0)
+    }, [])
   return (
     <div id="signupformfull">
       <div id="formimgdiv">
@@ -29,35 +34,23 @@ export default function SignupForm() {
       <label htmlFor="fname">First Name :</label>
       <input type="text" required></input>
       </div>
-      <br></br>
-      <br></br>
       <div>
       <label htmlFor="sname">Last Name :</label>
       <input type="text" required></input>
       </div>
-      <br></br>
-      <br></br>
       <div>
       <label htmlFor="email">Email :</label>
       <input type="email" required></input>
       </div>
-      <br></br>
-      <br></br>
       <div>
       <label htmlFor="password">Password :</label>
       <input type="password" required></input>
       </div>
-      <br></br>
-      <br></br>
       <div>
       <label htmlFor="cpassword">Confirm Password :</label>
       <input type="password" required></input>
       </div>
-      <br></br>
-      <br></br>
       By clicking Sign Up, you agree to our Terms & Conditions 
-      <br></br>
-      <br></br>
       <div id="signupformjoinbuttondiv">
       <button type="submit">Sign Up</button>
       </div>

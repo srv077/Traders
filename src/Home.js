@@ -1,4 +1,5 @@
 
+import { useEffect } from 'react';
 import Account from './Components/Account';
 import Footer from './Components/Footer';
 import Frond from './Components/Frond';
@@ -7,6 +8,9 @@ import Pricingmain from './Components/Pricingmain';
 import Productmain from './Components/Productmain';
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  },[])
   return (
     <div className="App">
       <Header/>
