@@ -51,3 +51,23 @@
         width: 50%;
     }
 }
+@media only screen and (max-width: 350px) {
+    #accountdet{
+        height: 80vh;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #accimg{
+        height: 70%;
+        width: 90%;
+    }
+    #accdetdiv>button{
+        height: 25%;
+        width: 30%;
+    }
+    #accdetdiv>*{
+        margin: 3%;
+    }
+}

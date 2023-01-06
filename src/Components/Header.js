@@ -5,15 +5,17 @@ import '../Style/Header.css'
 export default function Header() {
   const [login,SetLogin]=useState(false);
   const close=()=>{
+    document.getElementById('full-head').style.zIndex='-1';
     document.getElementById('full-head').style.display='none';
   }
   const open=()=>{
-    console.log("hai");
+    document.getElementById('full-head').style.zIndex='3';
     document.getElementById('full-head').style.display='grid';
+
   }
   return (
     <>
-    <div id="hamm" onClick={()=>{open()}}><i id="ham" onClick={()=>{open();console.log("inside")}} class="fa-sharp fa-solid fa-bars fa-2x"></i></div>
+    <div id="hamm" ><i id="ham" onClick={()=>{open()}} class="fa-sharp fa-solid fa-bars fa-2x"></i></div>
     <div id="full-head">
       <div id="titile">Traders
       <div id="close" onClick={close} ><i class="fa-sharp fa-solid fa-circle-xmark"></i></div>

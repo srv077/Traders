@@ -88,3 +88,8 @@
         height: 90vh;
     }
 }
+@media only screen and (max-width: 550px) {
+    #product-page {
+        height: 100vh;
+    }
+}

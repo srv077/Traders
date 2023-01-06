@@ -33,6 +33,11 @@
     color:white;
     width: 11%;
 }
+@media only screen and (max-width: 1000px) {
+    #frondfullvideo{
+        height: 110vh;
+    }
+}
 @media only screen and (max-width: 900px) {
     #frond-center{
         text-align: center;
@@ -45,5 +50,19 @@
         text-align: center;
         top: 50vh;
         left: 8vw;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #signup{
+        background-color: greenyellow;
+        width: 15%;
+        height:40px;
+        border-radius: 50px 50px 50px 0px;
+        cursor: pointer;
+    }
+    #signup:hover{
+        background-color: rgb(208, 240, 160);
+        color:white;
+        width: 17%;
     }
 }

@@ -77,3 +77,15 @@
         margin:0;
     }
 }
+@media only screen and (max-width: 450px) {
+    #formimgdiv{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    #signupformfull {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100% ;
+    }
+}
