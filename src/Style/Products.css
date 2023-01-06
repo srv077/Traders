@@ -83,13 +83,13 @@
         height: 25vh;
     }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
     #product-page {
         height: 90vh;
     }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 350px) {
     #product-page {
-        height: 100vh;
+        height: 130vh;
     }
 }
